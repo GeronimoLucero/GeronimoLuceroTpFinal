@@ -167,10 +167,11 @@ main p{
  /* firma */ 
 
 #firma div{
-    padding: 50px 50px;
+    padding: 0px 50px;
     display: flex ;
     text-align:start;
     height: 0px;
+    margin: 50px;
 }
 #firma img{
     width: 50%;
@@ -185,7 +186,7 @@ main p{
     margin: 50px;
     font-size: 50px;
     font-weight: 200;
-    padding: 5px;
+    padding: 8vh;
 }
 
 #icono{
@@ -196,7 +197,7 @@ main p{
 
 #contenido-icono{
     
-    margin: 300px;
+    margin: 100px;
     text-align: center;
     padding: 90px 90px 0px 90px;
     display: flex;
@@ -238,10 +239,128 @@ footer{
     flex-direction: column;
 }
 
+/* Contacto */
+
+.MenuContacto{
+    height: 100px;
+    background-color: #000000;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+   .MenuContacto a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+   
+.bodyContacto{
+    background-image: url(../imagenes/JAZZ.jpg);
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background-color:rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color:#fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+      min-height: 200px;
+      max-height: 200px;
+      max-width: 500px;
+    }
+
+    #boton{
+        background: #31384A;
+        color: #fff;
+        padding: 20px;
+    }
+#boton:hover{
+    cursor: pointer;
+}
+    
+    /* SOBRE NOSOTROS */
 
 
+    .contenedor{
+        display: flex;
+    }
+
+    .contenedor img{
+        width: 25%;
+        border-radius: 100%;
+        padding: 50px;
+    }
+
+    .contenedor p{
+        padding: 50px;
+    }
+
+    .contenedor2{
+        display: flex;
+    }
+
+    .contenedor2 img{
+        width: 25%;
+        border-radius: 100%;
+        padding: 50px;
+    }
+
+    .contenedor2 p{
+        padding: 50px;
+    }
+
+    .DittoF{
+
+        text-align: center;
+        font-size: 30px;
+        padding: 30px;
+        
+    }
+
+
+    /* BT HTML */
+    .card-group{
+        background-image: url(../imagenes/NOTAS.jpg);
+    }
+
+    .fondo{
+        background-image: url(../imagenes/woman-g07186cb15_1280.jpg);
+    }
+
+    .h1Fondo{
+        text-align: center;
+
+    }
+
+    .FondoE{
+        display: flex;
+        justify-content: center;
+    }
 
     
-    
-    
-
